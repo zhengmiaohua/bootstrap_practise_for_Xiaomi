@@ -1,0 +1,228 @@
+@charset"utf-8";
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahel UI", SimHei, sans-serif;
+    margin: 0 65px;
+}
+
+#myCarousel {
+    margin: 20px 0 0 0;
+}
+
+.navbar-toggle {
+    border: 1px solid #aaa;
+}
+
+.icon-bar {
+    background-color: #ff6700;
+}
+
+#navbar-collapse {
+    font-size: 16px;
+}
+
+#navbar-collapse a {
+    color: black;
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+.logo {
+    margin-left: -40px;
+}
+
+#navbar-collapse ul {
+    margin-top: 0px;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+}
+
+
+/*.carousel-control{
+	font-size: 100px;
+}*/
+
+.tab-h2 {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #0059B2;
+}
+
+.tab-p {
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #999;
+}
+
+.tab1 {
+    margin: 30px 0;
+    color: #666;
+}
+
+.tab1 .media-heading {
+    color: #111111;
+    font-family: Times;
+    font-size: 17px;
+}
+
+.text-price {
+    color: #ffa31e;
+}
+
+h4,
+p {
+    text-align: center;
+}
+
+.media-heading {
+    margin-top: 20px;
+}
+
+.tab1 img {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.tab-h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #111111
+}
+
+.tab2 {
+    background-color: #eee;
+    text-align: center;
+}
+
+
+/*.tab2-heading{
+	padding-top: 40px;
+}
+.tab3-heading{
+	padding-top: 40px;
+}
+.tab2-body{
+	padding-bottom: 20px;
+}
+.tab3-body{
+	padding-bottom: 20px;
+}*/
+
+.text {
+    margin: 60px 0;
+}
+
+.tab3 {
+    text-align: center;
+}
+
+.tab2 img {
+    width: 40%;
+    height: 30%
+}
+
+.tab3 img {
+    width: 70%;
+    height: 80%;
+}
+
+.text h3 {
+    font-size: 20px;
+}
+
+.text p {
+    font-size: 14px;
+}
+
+.media1,
+.media8 {
+    border-top: 1px solid #0e9d98;
+    padding-top: 10px;
+}
+
+.media2,
+.media7 {
+    border-top: 1px solid #00804d;
+    padding-top: 10px;
+}
+
+.media3,
+.media5 {
+    border-top: 1px solid #969da4;
+    padding-top: 10px;
+}
+
+.media4,
+.media6 {
+    border-top: 1px solid red;
+    padding-top: 10px;
+}
+
+#footer {
+    background-color: #eee;
+    border-top: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/*小屏幕，大于等于768px*/
+
+@media (min-width: 768px) {
+    .tab-h2 {
+        font-size: 26px;
+    }
+    .tab-p {
+        font-size: 16px;
+    }
+    .text h3 {
+        font-size: 22px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .tab2-text {
+        float: left;
+    }
+    .tab2-img {
+        float: right;
+    }
+}
+
+
+/*中等屏幕，大于等于992px*/
+
+@media (min-width: 992px) {
+    .tab-h2 {
+        font-size: 28px;
+    }
+    .tab-p {
+        font-size: 17px;
+    }
+    .text h3 {
+        font-size: 24px;
+    }
+    .text p {
+        font-size: 16px;
+    }
+}
+
+
+/*大屏幕，大于等于1200px*/
+
+@media (min-width: 1200px) {
+    .tab-h2 {
+        font-size: 30px;
+    }
+    .tab-p {
+        font-size: 18px;
+    }
+    .text h3 {
+        font-size: 26px;
+    }
+    .text p {
+        font-size: 18px;
+    }
+}
